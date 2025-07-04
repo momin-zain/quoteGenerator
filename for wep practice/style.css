@@ -1,0 +1,103 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+      
+    }
+
+    .container {
+      max-width: 600px;
+      margin:40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .form {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .form input,
+    .form select,
+    .form button {
+      flex: 1 1 45%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .form button {
+      background: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      flex: 1 1 100%;
+    }
+
+    .form button:hover {
+      background: #218838;
+    }
+
+    .summary {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      background: #e9ecef;
+      padding: 15px;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f8f9fa;
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-left: 6px solid;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li.income {
+      border-color: green;
+      color: green;
+    }
+
+    li.expense {
+      border-color: red;
+      color: red;
+    }
+
+    .delete-btn {
+      background: transparent;
+      border: none;
+      color: #dc3545;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .delete-btn:hover {
+      color: darkred;
+    }
