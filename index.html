@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood-Based Quote Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quote Generator</h1>
+        
+        <div class="mood-buttons">
+            <button class="mood-btn happy" onclick="generateQuote('happy')">
+                😊 Happy
+            </button>
+            <button class="mood-btn sad" onclick="generateQuote('sad')">
+                😢 Sad
+            </button>
+            <button class="mood-btn motivated" onclick="generateQuote('motivated')">
+                🔥 Motivated
+            </button>
+            <button class="mood-btn lazy" onclick="generateQuote('lazy')">
+                😴 Lazy
+            </button>
+            <button class="mood-btn angry" onclick="generateQuote('angry')">
+                😡 Angry
+            </button>
+            <button class="mood-btn heartbroken" onclick="generateQuote('heartbroken')">
+                💔 Heartbroken
+            </button>
+        </div>
+
+        <div class="quote-container" id="quoteContainer">
+            <div>
+                <div class="quote" id="quote">
+                    Select a mood to discover your perfect quote!
+                </div>
+                <div class="author" id="author"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
